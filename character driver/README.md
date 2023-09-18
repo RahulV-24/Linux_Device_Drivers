@@ -9,7 +9,7 @@ This code can be compiled by following these steps.
 ### 1. Clone the Repository:
   ``` 
   $ git clone https://github.com/RahulV-24/Linux_Device_Drivers.git
-  $ cd character_driver
+  $ cd character\ driver/
   ```
 ### 2. Compile the Module:
   ``` 
@@ -31,7 +31,6 @@ The output contains messages produced by the device drivers.
 ### 2. Create a Device File:
   ``` 
   $ sudo mknod /dev/char_drv c 238 0
-
   ```
 Here major no. is 238.
 
