@@ -16,7 +16,7 @@ int main()
 	char option;
 	printf("DEMO OF char driver\n");
 
-	fd = open("/home/yocto/Documents/char/char",O_RDWR);
+	fd = open("/home/yocto/Documents/char/char_dev",O_RDWR);
 	if(fd<0)
 	{
 		printf("cannot open file\n");fflush(stdout);
