@@ -46,5 +46,15 @@ You can Read data to the device file using standard file operations. For example
 ```
 $ cat /dev/char_drv
 ```
+### 4.User application for testing driver:
 
+for making driver executable change file permissions
+```
+$ sudo chmod 777 char_drv
+```
+Compile and Run test file
+```
+$ gcc test.c -o test
+$ ./test
+```
 
